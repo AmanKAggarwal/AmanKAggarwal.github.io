@@ -1,0 +1,102 @@
+
+.black-hover-white{
+  background-color:black;
+  color: #c2c6cc;
+}
+.black-hover-white:hover{
+  background-color: #e8edff;
+  color: black;
+}
+
+#about-me:hover{
+  background-color: #00cdaf;
+  color: black;
+}
+
+#projects:hover{
+  background-color: #84d4f6;
+  color: black;
+}
+
+#skills:hover{
+  background-color: #dbdda4;
+  color: black;
+}
+
+#contact:hover{
+  background-color: #8f9094;
+  color: black;
+}
+
+#empty:hover{
+  background-color: #bb9cf3;
+  color: black;
+}
+.black-bg{
+  background-color: black;
+  color: #c2c6cc
+}
+#profile-pic{
+  width: 70%;
+}
+
+.body-font{
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.display-projects td,.display-projects tr, .display-skills td,.display-skills tr{
+  border: 3px solid #e8edff;
+}
+.display-projects:hover td, .display-skills:hover td{
+  border: 3px solid black;
+}
+.display-projects:hover td:hover{
+  border: 3px solid #1144ea;
+}
+.display-skills:hover td:hover{
+  border: 3px solid #dc1c33;
+}
+
+
+#projects-table, #skills-table{
+  border-collapse: separate;
+  border-spacing: 30px;
+}
+.white-text{
+  color: aliceblue;
+  font-size: 2vw;
+}
+#linkedin-logo{
+  width: 70px;
+}
+#github-logo{
+  width: 60px;
+}
+#email-icon{
+  height: 12px;
+}
+#resume-btn{
+  color: #c2c6cc;
+}
+
+.contact-btn{
+  background: black;
+  color: #c2c6cc;
+  border-color: #c2c6cc;
+}
+
+.contact-btn:hover{
+  background: #c2c6cc;
+  color: black;
+  border-color: black;
+}
+
+
+#resume-icon{
+  width: 120px;
+}
+
+.contact-btn-black{
+  color: black;
+}
