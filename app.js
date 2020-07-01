@@ -69,55 +69,6 @@ const buttonHover = function(e){
   img.parentElement.style.background = darkTheme;
 }
 // _____________________________________________________________________________________________________________________
-// const tableBorderColor = function(container, color){
-//   container = document.querySelector(".display-"+container+"s");
-//   var tableLi = container.querySelector("table").getElementsByTagName("td");
-//   for(var i = 0; i < tableLi.length; i++){
-//     tableLi[i].style.borderColor = color;
-//   }
-// }
-
-// const ifEventOnTD = function(e, container){
-//   console.log(container);
-//   if (e.target.classList.contains(""+container+"-item")){
-//     return true;
-//   } else{
-//     return false;
-//   }
-// }
-// const tdBorderColor = function(e, color, container){
-//   var td;
-//   if (ifEventOnTD(e, container)){
-//     td = e.target;
-//   } else{
-//     td = e.target.parentElement;
-//   }
-//   td.style.borderColor = color;
-// }
-// const hoverEffectTable_EventListener = function(container){
-//   const div = document.querySelector(".display-"+container+"s");
-//   const tdList = div.querySelector("table").getElementsByTagName("td");
-//   for (var i = 0; i < tdList.length; i++){
-//     tdList[i].addEventListener("mouseover", function(e){
-//       tdBorderColor(e, "#f141fa", container);
-//     })
-//     tdList[i].addEventListener("mouseleave", function(e){
-//       tdBorderColor(e, darkTheme, container);
-//     })
-//   }
-// }
-// const allTDBorderColor = function(e, container, color){
-//   if (ifEventOnTD(e, container)){
-//     return;
-//   }
-//   console.log(container);
-//   const div = document.querySelector(document.querySelector(".display-"+container+"s"))
-//   const tdList = div.querySelectorAll("td");
-//   for (var i = 0; i < tdList.length; i++){
-//     tdList[i].style.borderColor = color;
-//   }
-// }
-// _____________________________________________________________________________________________________________________
 
 const contact_div = document.getElementById('contact');
 contact_div.addEventListener("mouseover", hoverContact);

@@ -1,13 +1,10 @@
 
-.black-hover-white{
+.base-black-theme{
   background-color:black;
   color: #c2c6cc;
 }
-.black-hover-white:hover{
-  background-color: #e8edff;
-  color: black;
-}
 
+/* Hover features for different blocks */
 #about-me:hover{
   background-color: #00cdaf;
   color: black;
@@ -32,6 +29,8 @@
   background-color: #bb9cf3;
   color: black;
 }
+
+
 .black-bg{
   background-color: black;
   color: #c2c6cc

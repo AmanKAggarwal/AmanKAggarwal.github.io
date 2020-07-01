@@ -1,0 +1,136 @@
+$light-color: #8f9094;
+$dark-color: black;
+
+/* Hover features for different blocks */
+%normal-theme{
+	background-color: $dark-color;
+	color: $light-color;
+}
+%hover-theme{
+	background-color: $light-color;
+	color: $dark-color;
+}
+
+
+
+#about-me, #projects, #skills, #contact, #timeline {
+	@extend %normal-theme;
+	&:hover {
+		@extend %hover-theme;
+	}
+}
+
+#copyright, nav, body > div{
+	@extend %normal-theme;
+}
+
+#profile-pic {
+	width: 300px;
+}
+.body-font, p {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.flex-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex-div1, .flex-div2{
+	flex: 50%;
+}
+
+@media (max-width: 1000px){
+	.flex-div1, .flex-div2{
+		flex: 100%;
+	}
+	#about-me img{
+		width: 400px;
+	}
+}
+
+
+#timeline{
+	table{
+		margin-left: auto;
+		margin-right: auto;
+		border-collapse: collapse;
+		
+	}
+	
+	td, tr{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-top: 1px solid $light-color;
+	}
+	.timeline-table-year{
+		padding-right: 70px;
+		padding-left: 70px;
+		border-right: 1px solid $light-color;
+	}
+	.timeline-table-activity{
+		padding-right: 100px;
+		padding-left: 100px;
+		border-left: 1px solid $light-color;
+	}
+
+	&:hover{
+		td, tr{
+			border-top: 1px solid $dark-color;
+		}
+		.timeline-table-year{
+			border-right: 1px solid $dark-color;
+		}
+		.timeline-table-activity{
+			border-left: 1px solid $dark-color;
+		}
+	}
+	
+}
+
+@media (max-width: 700px){
+	.flex-div1, .flex-div2{
+		flex: 100%;
+	}
+	#about-me img{
+		width: 250px;
+	}
+	.body-font, p{
+		font-size: 15px;
+	}
+
+}
+@media (max-width: 500px){
+	#timeline{
+		.timeline-table-year, .timeline-table-activity{
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+	}
+}
+
+#linkedin-logo {
+	width: 70px;
+}
+#github-logo {
+	width: 60px;
+}
+#email-icon {
+	height: 12px;
+}
+#resume-btn {
+	color: $light-color;
+}
+.contact-btn {
+	@extend %normal-theme;
+	border-color: $light-color;
+	&:hover {
+		@extend %hover-theme;
+		border-color: $dark-color;
+	}
+}
+#resume-icon {
+	width: 120px;
+}
+

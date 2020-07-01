@@ -1,0 +1,87 @@
+/* Hover features for different blocks */
+#about-me, #projects, #skills, #contact, #timeline, #copyright, nav, body > div, .contact-btn {
+  background-color: black;
+  color: #8f9094; }
+
+#about-me:hover, #projects:hover, #skills:hover, #contact:hover, #timeline:hover, .contact-btn:hover {
+  background-color: #8f9094;
+  color: black; }
+
+#profile-pic {
+  width: 300px; }
+
+.body-font, p {
+  font-size: 20px;
+  line-height: 40px; }
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.flex-div1, .flex-div2 {
+  flex: 50%; }
+
+@media (max-width: 1000px) {
+  .flex-div1, .flex-div2 {
+    flex: 100%; }
+
+  #about-me img {
+    width: 400px; } }
+#timeline table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse; }
+#timeline td, #timeline tr {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #8f9094; }
+#timeline .timeline-table-year {
+  padding-right: 70px;
+  padding-left: 70px;
+  border-right: 1px solid #8f9094; }
+#timeline .timeline-table-activity {
+  padding-right: 100px;
+  padding-left: 100px;
+  border-left: 1px solid #8f9094; }
+#timeline:hover td, #timeline:hover tr {
+  border-top: 1px solid black; }
+#timeline:hover .timeline-table-year {
+  border-right: 1px solid black; }
+#timeline:hover .timeline-table-activity {
+  border-left: 1px solid black; }
+
+@media (max-width: 700px) {
+  .flex-div1, .flex-div2 {
+    flex: 100%; }
+
+  #about-me img {
+    width: 250px; }
+
+  .body-font, p {
+    font-size: 15px; } }
+@media (max-width: 500px) {
+  #timeline .timeline-table-year, #timeline .timeline-table-activity {
+    padding-right: 30px;
+    padding-left: 30px; } }
+#linkedin-logo {
+  width: 70px; }
+
+#github-logo {
+  width: 60px; }
+
+#email-icon {
+  height: 12px; }
+
+#resume-btn {
+  color: #8f9094; }
+
+.contact-btn {
+  border-color: #8f9094; }
+  .contact-btn:hover {
+    border-color: black; }
+
+#resume-icon {
+  width: 120px; }
+
+/*# sourceMappingURL=styles2.css.map */

@@ -1,0 +1,23 @@
+$light-color: #8f9094;
+$dark-color: black;
+
+#skills{
+  table{
+    border-collapse: separate;
+    border-spacing: 50px;
+    font-size: larger;
+  }
+  td, tr{
+    border: 10px solid $light-color;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  &:hover{
+    td, tr{
+      border: 10px solid $dark-color;
+      
+    }
+  }
+}

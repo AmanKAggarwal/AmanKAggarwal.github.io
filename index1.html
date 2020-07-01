@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aman Kumar Aggarwal | UC San Diego</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class = "navbar sticky-top navbar-expand-sm base-black-theme navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">AmanKA</a>
+  
+    <!--Collapse Navbar-->
+    <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target = "#collapsible-nav-bar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class = "collapse navbar-collapse" id="collapsible-nav-bar"><ul class = "navbar-nav">
+      <li class = "nav-item"><a class="nav-link" href = "#about-me">About</a></li>
+      <li class = "nav-item"><a href="projects.html" class = "nav-link">Projects</a></li>
+      <li class = "nav-item"><a href="#skills" class = "nav-link">Skills</a></li>
+      <li class = "nav-item"><a href="#contact" class = "nav-link">Contact</a></li>
+      <li class = "nav-item"><a href="#contact" class = "nav-link">Resume</a></li>
+    </ul></div>
+  </nav>
+  <!--Display Coding wallpaper-->
+  <div class = "container-fluid base-black-theme">
+    <img src="./images/code-wallpaper.png" id = "code-wallpaper" alt="" class = "img-fluid p-1">
+  </div>
+
+  
+  <!--Display About me and my picture-->
+  <div class = "container-fluid border-top base-black-theme" id = "about-me">
+    <div class = "row">
+      <div class = "text-center col-12"><h1 class = "display-4 p-3" style="font-size:50px">About me</h1></div>
+      <div class = "col-12 col-md-6 p-5 text-center"><img src="./images/cropped-profile.png" alt="Personal" class = "img-fluid rounded" id = "profile-pic"></div>
+      <div class = "col-12 col-md-6 p-5 text-center body-font"><p>I am a UC San Diego Freshman majoring in Computer Science. I am looking for internships for Summer 2020 in the field of computer programming to acquire and implement advanced knowledge in programming, to escalate intellectual networking. I am looking forward to gain experience to work both in teams and individually to focus my skills. 
+      </p></div>
+    </div>
+  </div>
+
+  
+  <div class = "container-fluid body-font"><div class = "row">
+    <!--Display Projects-->
+    <div class = "text-center col-12 col-md-6 p-4 border-top border-right base-black-theme display-projects" id = "projects">
+      <h1 class = "display-4" style="font-size:50px">Projects</h2><br>
+      <table id = "projects-table" style="margin: auto;">
+        <tr><td class="project-item"><div class="p-2">Ultimate Tic Tac Toe (multiplayer)</div></td></tr>
+        <tr><td class="project-item"><div class="p-2">Connect 4</div></td></tr>
+        <tr><td class="project-item"><div class="p-2">GitHub Username Lookup</div></td></tr>
+        <tr><td class="project-item"><div class="p-2">Number Guesser game</div></td></tr>
+        <tr><td class="project-item"><div class="p-2">Task list interactive website</div></td></tr>
+        <tr><td class="project-item"><div class="p-2">Booklist interactive website</div></td></tr>
+        <tr><td class="project-item"><div class="p-2">Quiz similar to "Who wants to be a millionaire?”</div></td></tr>
+      </table>
+    </div>
+
+    <!--Display Skills-->
+    <div class = "text-center col-12 col-md-6 p-4 border-top base-black-theme display-skills" id = "skills">
+      <h1 class = "display-4" style="font-size:50px">Skills</h2><br>
+        <table id = "skills-table" style="margin: auto;">
+          <tr><td class="skill-item"><div class="p-2">Python (with GUI)</div></td></tr>
+          <tr><td class="skill-item"><div class="p-2">C programming</div></td></tr>
+          <tr><td class="skill-item"><div class="p-2">JavaScript</div></td></tr>
+          <tr><td class="skill-item"><div class="p-2">Java OOP programming</div></td></tr>
+          <tr><td class="skill-item"><div class="p-2">HTML, CSS, and Bootstrap</div></td></tr>
+        </table></div>
+    </div>
+  </div></div>
+
+  <!--Display About me-->
+  <!-- <div class = "container-fluid border-top base-black-theme" id = "empty">
+    <div class = "row">
+      <div class = "text-center col-12"><h1 class = "display-4 p-3" style="font-size:50px">About me</h2></div>
+      <div class = "col-12 p-5"><p>I am a UC San Diego Freshman majoring in Computer Science. I am looking for internships for Summer 2020 in the field of computer programming to acquire and implement advanced knowledge in programming, to escalate intellectual networking. I am looking forward to gain experience to work both in teams and individually to focus my skills. 
+      </p></div>
+    </div>
+  </div> -->
+
+  <!--Display email, resume-->
+  <div class = "container-fluid border-top base-black-theme" id = "contact">
+    <div class = "row">
+      <div class = "text-center col-12"><h1 class = "display-4 p-3" style="font-size:50px">Contact</h2></div>
+        <div class = "col-12 col-sm-6 text-center body-font pb-4">
+          <img src="./images/envelope_icon.png" alt="Email:" id = "email-icon">&nbsp &nbsp akaggarw@ucsd.edu <br><br>
+          <a href="https://www.linkedin.com/in/aman-kumar-aggarwal/" role="button" class="btn btn-outline-secondary contact-btn"><img src="./images/LI-Logo.png" alt="LinkedIn" id = "linkedin-logo"></a>
+          &nbsp &nbsp &nbsp &nbsp
+          <a href = "https://github.com/AmanKAggarwal" role="button" class="btn btn-outline-secondary contact-btn"><img src="./images/GitHub_Logo.png" alt="GitHub" id = "github-logo"></a>
+        </div>
+        <div class = "col-12 col-sm-6 text-center pb-4"><a href = "AmanKA_Resume.pdf" role="button" class="btn btn-outline-primary btn-lg contact-btn" id = "resume-btn" style="width: 220px;"><img src="./images/resume_btn.png" alt="Resume" id = "resume-icon"></a></div>
+    </div>
+  </div>
+
+  <!--Copyrights -->
+  <div class = "container-fluid border-top base-black-theme">
+    <div class = "row">
+      <div class = "col-12 pt-4 text-center"><p style="font-size:smaller;">Copyright © 2020 Aman Kumar Aggarwal</p></div>
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

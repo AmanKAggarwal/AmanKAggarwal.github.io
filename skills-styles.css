@@ -1,0 +1,13 @@
+#skills table {
+  border-collapse: separate;
+  border-spacing: 50px;
+  font-size: larger; }
+#skills td, #skills tr {
+  border: 10px solid #8f9094;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px; }
+#skills:hover td, #skills:hover tr {
+  border: 10px solid black; }
+
+/*# sourceMappingURL=skills-styles.css.map */
