@@ -100,3 +100,10 @@
 .contact-btn-black{
   color: black;
 }
+
+.center-div {
+  text-align: center;
+}
+#calendar-frame {
+  width: 80%;
+}
